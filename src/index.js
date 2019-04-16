@@ -2,11 +2,22 @@ import './normalize.css';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Header from './Header';
-import Description from './Description';
+import Header from './components/Header';
+import Description from './components/Description';
 import * as serviceWorker from './serviceWorker';
 
-ReactDOM.render(<Header />, <Description />, document.getElementById('root'));
+class App extends React.Component { 
+    render() {
+        return (
+            <div className="content">
+                <Header />
+                <Description />
+            </div>
+        );
+    }
+}
+
+ReactDOM.render(<App />, document.getElementById('root'));
 
 
 // If you want your app to work offline and load faster, you can change
