@@ -4,6 +4,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import Header from './components/Header';
 import Description from './components/Description';
+import Gallery from './components/Gallery';
 import * as serviceWorker from './serviceWorker';
 
 class App extends React.Component { 
@@ -12,6 +13,7 @@ class App extends React.Component {
             <div className="content">
                 <Header />
                 <Description />
+                <Gallery />
             </div>
         );
     }
