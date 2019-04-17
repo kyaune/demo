@@ -1,0 +1,47 @@
+p{
+    margin: 0 auto;
+}
+.Parks{
+    margin-left: 148px;
+    margin-right: 148px;
+    margin-top: 72px;
+    font-size: 18px;
+}
+.parks__components{
+    display: flex;
+    flex-direction: column;
+}
+.component__header{
+    display: flex;
+    flex-direction: row;
+    align-content: flex-end;
+}
+.component__name{
+    font-size: 72px;
+    font-style: italic;
+    font-weight: normal;
+    max-width: 457px;
+}
+.site{
+    margin-left: 40px;
+    margin-top: 150px;
+}
+.site__url{
+    color: #AAAAAA;
+    font-size: 12px;
+    margin-bottom: 16px;
+}
+.component__body{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: flex-start;
+}
+.component__text{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+}
+.text{
+    margin-bottom: 16px;
+}

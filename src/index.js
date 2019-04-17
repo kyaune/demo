@@ -5,6 +5,7 @@ import './index.css';
 import Header from './components/Header';
 import Description from './components/Description';
 import Gallery from './components/Gallery';
+import Parks from './components/Parks';
 import * as serviceWorker from './serviceWorker';
 
 class App extends React.Component { 
@@ -14,6 +15,7 @@ class App extends React.Component {
                 <Header />
                 <Description />
                 <Gallery />
+                <Parks />
             </div>
         );
     }
