@@ -1,0 +1,19 @@
+.Cities {
+    margin-top: 102px;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+.cities__content {
+    margin-top: 82px;
+}
+.cities__body {
+    display: flex;
+    flex-direction: row;
+}
+.cities__element{
+    margin-left: 23px;
+    margin-right: 23px;
+}
+.cities__name {
+    margin-top: 35px;
+}
