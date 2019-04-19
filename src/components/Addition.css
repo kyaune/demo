@@ -1,0 +1,22 @@
+.Addition {
+    margin-top: 102px;
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: center;
+}
+.addition__header {
+    font-size: 72px;
+    font-style: italic;
+}
+.addition__description {
+    font-size: 24px;
+}
+.addition__body {
+    display: flex;
+    flex-direction: row;
+    margin-top: 72px;
+}
+.addition__body img {
+    margin-left: 8px;
+    margin-right: 8px; 
+}

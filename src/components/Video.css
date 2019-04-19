@@ -1,0 +1,30 @@
+.Video {
+    margin-top: 102px;
+    margin-left: 39px;
+    margin-right: 39px;
+    text-align: center;
+}
+.video__content {
+    display: inline-block;
+}
+.video__header {
+    max-width: 800px;
+    margin: 0 auto;
+}
+h1 {
+    font-size: 72px;
+    font-style: italic;
+}
+.header__text {
+    font-size: 24px;
+    margin-top: 48px;
+}
+.video__body {
+    display: flex;
+    flex-direction: row;
+    margin-top: 72px;
+}
+.video {
+    margin-left: 9px;
+    margin-right: 9px;
+}

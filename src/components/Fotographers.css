@@ -1,0 +1,47 @@
+.Fotographer {
+    margin-top: 102px;
+    margin-left: 39px;
+    margin-right: 39px;
+    text-align: center;
+}
+.fotographer__content {
+    display: inline-block;
+}
+.fotographer__header {
+    max-width: 800px;
+    margin: 0 auto;
+}
+h1 {
+    font-size: 72px;
+    font-style: italic;
+}
+.header__text {
+    max-width: 640px;
+    font-size: 24px;
+    margin-top: 48px;
+}
+.fotographer__body {
+    display: flex;
+    flex-direction: row;
+    margin-top: 72px;
+}
+.fotographer__element {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    flex: 390px;
+    font-size: 14px;
+    margin-left: 9px;
+    margin-right: 9px;
+}
+.fotographer__img {
+    border-radius: 50%;
+}
+.fotographer__text{
+    margin-top: 42px;
+}
+.fotographer__name {
+    font-style: italic;
+    margin-top: 24px;
+    /* text-align: start; */
+}

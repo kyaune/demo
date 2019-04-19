@@ -6,6 +6,9 @@ import Header from './components/Header';
 import Description from './components/Description';
 import Gallery from './components/Gallery';
 import Parks from './components/Parks';
+import Video from './components/Video';
+import Addition from './components/Addition';
+import Fotographer from './components/Fotographers';
 import * as serviceWorker from './serviceWorker';
 
 class App extends React.Component { 
@@ -16,6 +19,9 @@ class App extends React.Component {
                 <Description />
                 <Gallery />
                 <Parks />
+                <Video />
+                <Addition />
+                <Fotographer />
             </div>
         );
     }
