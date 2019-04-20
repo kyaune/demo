@@ -1,0 +1,33 @@
+.Map {
+    margin-top: 85px;
+    margin-left: 48px;
+    margin-right: 48px;
+}
+.map__header {
+    text-align: left;
+    font-size: 42px;
+    max-width: 583px;
+}
+.header__name {
+    font-style: italic;
+}
+.header__coordinates {
+    margin-top: 20px;
+}
+.map__img {
+    margin-top: 50px;
+}
+.map__description {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    font-size: 18px;
+}
+.description__text {
+    max-width: 380px;
+}
+.description__site {
+    max-width: 280px;
+    margin-left: 120px;
+}

@@ -10,6 +10,7 @@ import Video from './components/Video';
 import Addition from './components/Addition';
 import Fotographer from './components/Fotographers';
 import Cities from './components/Cities';
+import Map from './components/Map';
 import * as serviceWorker from './serviceWorker';
 
 class App extends React.Component { 
@@ -24,6 +25,7 @@ class App extends React.Component {
                 <Addition />
                 <Fotographer />
                 <Cities />
+                <Map />
             </div>
         );
     }
