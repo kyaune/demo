@@ -1,0 +1,19 @@
+.Footer {
+    margin-top: 160px;
+    margin-left: 39px;
+    margin-right: 39px;
+    display: inline-block;
+}
+.footer__content {
+    display: flex;
+    flex-direction: row;
+    font-size: 24px;
+}
+.footer__url {
+    margin-left: 9px;
+    margin-right: 9px;
+}
+.footer__copyright {
+    font-size: 14px;
+    margin-left: 240px;
+}

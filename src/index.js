@@ -11,6 +11,7 @@ import Addition from './components/Addition';
 import Fotographer from './components/Fotographers';
 import Cities from './components/Cities';
 import Map from './components/Map';
+import Footer from './components/Footer';
 import * as serviceWorker from './serviceWorker';
 
 class App extends React.Component { 
@@ -26,6 +27,7 @@ class App extends React.Component {
                 <Fotographer />
                 <Cities />
                 <Map />
+                <Footer />
             </div>
         );
     }
